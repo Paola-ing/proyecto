@@ -1,0 +1,15 @@
+﻿version: 2
+
+models:
+  - name: dim_producto
+    columns:
+      - name: sku
+        tests:
+          - not_null
+          - unique
+      - name: brand
+        tests:
+          - not_null
+      - name: category
+        tests:
+          - not_null

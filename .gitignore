@@ -1,0 +1,20 @@
+﻿# --- ignora binarios/grandes ---
+*.parquet
+*.db
+*.zip
+*.gz
+# ignora TODOS los CSV...
+*.csv
+# ...menos los que están en seeds/
+!seeds/*.csv
+
+# --- dbt / Python / IDE ---
+target/
+dbt_packages/
+logs/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/

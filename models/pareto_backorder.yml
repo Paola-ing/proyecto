@@ -1,0 +1,9 @@
+﻿version: 2
+
+models:
+  - name: pareto_backorder
+    columns:
+      - name: category
+        tests: [not_null]
+      - name: Cantidad
+        tests: [not_null]
